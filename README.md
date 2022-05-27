@@ -2,9 +2,9 @@
 
 ## 简介
 
-这是在腾讯容器服务TKE上部署数据流处理服务的Demo。
+这是在容器上部署数据流处理服务的Demo。
 
-涉及组件：腾讯容器服务TKE、消息队列Pulsar、流处理Flink、时序数据库CTSDB、智研监控宝、可视化Grafana
+涉及组件：消息队列Pulsar、流处理Flink、时序数据库CTSDB、智研监控宝、可视化Grafana
 
 
 ## Demo架构图
@@ -42,7 +42,7 @@
   - PulsarSource.java 从Pulsar获取数据
 - **flink-connector-zhiyan文件夹** flink连接智研宝
 
-  - ZhiYanSink.java 将数据发送到直言监控宝
+  - ZhiYanSink.java 将数据发送到智研监控宝
 - **flink-connector-ctsdb文件夹** flink连接CTSDB
 
   - CTSDBSink.java 将数据发送到CTSDB
